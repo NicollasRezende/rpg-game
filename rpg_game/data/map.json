@@ -1,0 +1,26 @@
+{
+    "nome": "Vila Inicial",
+    "descricao": "Uma pequena vila com algumas casas e uma taverna.",
+    "saidas": {
+        "norte": {
+            "nome": "Floresta",
+            "descricao": "Uma floresta densa e escura.",
+            "saidas": {
+                "sul": {
+                    "nome": "Vila Inicial",
+                    "descricao": "Uma pequena vila com algumas casas e uma taverna.",
+                    "saidas": {
+                        "norte": "Floresta"
+                    }
+                },
+                "leste": {
+                    "nome": "Caverna",
+                    "descricao": "Uma caverna escura e úmida.",
+                    "saidas": {
+                        "oeste": "Floresta"
+                    }
+                }
+            }
+        }
+    }
+}
